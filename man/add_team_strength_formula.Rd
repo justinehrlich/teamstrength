@@ -19,4 +19,5 @@ Add Strength (Difference Form Indicators) to a Formula
 }
 \examples{
 add_team_strength_formula("HomePointDifferential~Jamsil+PartialFans + NoFans + Playoffs", data)
+
 }
