@@ -6,11 +6,12 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The teamstrength package will generate difference form indicators for
-comparing home and away fixed effects. The indicators are setup so that
-a single team fixed effect will be fitted for both home and away games.
-This allows a single metric to be developed to measure a team’s
-performance, and also allows the analysis of home field advantage.
+The teamstrength package will generate Nettleton’s (2019) difference
+form indicators for comparing home and away fixed effects. The
+indicators are setup so that a single team fixed effect will be fitted
+for both home and away games. This allows a single metric to be
+developed to measure a team’s performance, and also allows the analysis
+of home field advantage.
 
 ## Installation
 
