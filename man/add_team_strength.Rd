@@ -2,7 +2,7 @@
 % Please edit documentation in R/add_team_strength.R
 \name{add_team_strength}
 \alias{add_team_strength}
-\title{Add Team Strength (Difference Form Indicators) to a Tibble}
+\title{Add Team Strength}
 \usage{
 add_team_strength(
   data,
@@ -13,6 +13,8 @@ add_team_strength(
 )
 }
 \arguments{
+\item{data}{tibble to add strength to}
+
 \item{home_team_column}{home team column.}
 
 \item{away_team_column}{away team column}

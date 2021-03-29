@@ -2,7 +2,7 @@
 % Please edit documentation in R/add_team_strength_formula.R
 \name{add_team_strength_formula}
 \alias{add_team_strength_formula}
-\title{Add Strength (Difference Form Indicators) to a Formula}
+\title{Add Team Strength Formula}
 \usage{
 add_team_strength_formula(forumula_prefix, data)
 }
