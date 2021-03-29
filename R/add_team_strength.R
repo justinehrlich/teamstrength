@@ -23,7 +23,7 @@ add_team_strength <- function(data, home_team_column, away_team_column, season_c
 
 
   #if the home and away teams per season are not symmetric, modeling will not be consistent. Therefore a warning will be raised and the data will be filtered to only include symmetric teams.
-  if ((length(unique(data$AwayStrength)) != length(unique(data$HomeStrength))) | (sum(sort(unique(data$HomeStrength)) == sort(unique(data$AwayTeam))) != max(length(unique(data$AwayStrength)), length(unique(data$HomeStrength))))){
+  if ((length(unique(data$AwayStrength)) != length(unique(data$HomeStrength))) | (sum(sort(unique(data$HomeStrength)) == sort(unique(data$AwayStrength))) != max(length(unique(data$AwayStrength)), length(unique(data$HomeStrength))))){
     warning("Away Teams set is not equal to the Home Teams set. Only including the intersection between these two sets.")
 
     data %>% filter(HomeStrength %in% unique(AwayStrength)) %>% filter(AwayStrength %in% unique(HomeStrength)) -> data
